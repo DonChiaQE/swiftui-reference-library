@@ -11,6 +11,10 @@
 		97776CF625BF24E6009A65CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97776CF525BF24E6009A65CD /* ContentView.swift */; };
 		97776CF825BF24E7009A65CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97776CF725BF24E7009A65CD /* Assets.xcassets */; };
 		97776CFB25BF24E7009A65CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97776CFA25BF24E7009A65CD /* Preview Assets.xcassets */; };
+		97776D0625BF251A009A65CD /* vstack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97776D0525BF251A009A65CD /* vstack.swift */; };
+		97776D0A25BF254D009A65CD /* hstack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97776D0925BF254D009A65CD /* hstack.swift */; };
+		97776D0D25BF2593009A65CD /* zstack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97776D0C25BF2593009A65CD /* zstack.swift */; };
+		97776D1025BF2638009A65CD /* spacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97776D0F25BF2638009A65CD /* spacer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		97776CF725BF24E7009A65CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97776CFA25BF24E7009A65CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		97776CFC25BF24E7009A65CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97776D0525BF251A009A65CD /* vstack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vstack.swift; sourceTree = "<group>"; };
+		97776D0925BF254D009A65CD /* hstack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hstack.swift; sourceTree = "<group>"; };
+		97776D0C25BF2593009A65CD /* zstack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zstack.swift; sourceTree = "<group>"; };
+		97776D0F25BF2638009A65CD /* spacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spacer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,8 @@
 		97776CF225BF24E6009A65CD /* swiftui-reference-library */ = {
 			isa = PBXGroup;
 			children = (
+				97776D0425BF2509009A65CD /* Basic Elements */,
+				97776D0325BF24FD009A65CD /* Basic Layout */,
 				97776CF325BF24E6009A65CD /* swiftui_reference_libraryApp.swift */,
 				97776CF525BF24E6009A65CD /* ContentView.swift */,
 				97776CF725BF24E7009A65CD /* Assets.xcassets */,
@@ -67,6 +77,24 @@
 				97776CFA25BF24E7009A65CD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		97776D0325BF24FD009A65CD /* Basic Layout */ = {
+			isa = PBXGroup;
+			children = (
+				97776D0525BF251A009A65CD /* vstack.swift */,
+				97776D0925BF254D009A65CD /* hstack.swift */,
+				97776D0C25BF2593009A65CD /* zstack.swift */,
+				97776D0F25BF2638009A65CD /* spacer.swift */,
+			);
+			path = "Basic Layout";
+			sourceTree = "<group>";
+		};
+		97776D0425BF2509009A65CD /* Basic Elements */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Basic Elements";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +167,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				97776CF625BF24E6009A65CD /* ContentView.swift in Sources */,
+				97776D0A25BF254D009A65CD /* hstack.swift in Sources */,
+				97776D0D25BF2593009A65CD /* zstack.swift in Sources */,
+				97776D0625BF251A009A65CD /* vstack.swift in Sources */,
 				97776CF425BF24E6009A65CD /* swiftui_reference_libraryApp.swift in Sources */,
+				97776D1025BF2638009A65CD /* spacer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,6 +15,7 @@
 		97776D0A25BF254D009A65CD /* hstack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97776D0925BF254D009A65CD /* hstack.swift */; };
 		97776D0D25BF2593009A65CD /* zstack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97776D0C25BF2593009A65CD /* zstack.swift */; };
 		97776D1025BF2638009A65CD /* spacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97776D0F25BF2638009A65CD /* spacer.swift */; };
+		97C8EB3425C3BD970094696A /* list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C8EB3325C3BD970094696A /* list.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		97776D0925BF254D009A65CD /* hstack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hstack.swift; sourceTree = "<group>"; };
 		97776D0C25BF2593009A65CD /* zstack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zstack.swift; sourceTree = "<group>"; };
 		97776D0F25BF2638009A65CD /* spacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spacer.swift; sourceTree = "<group>"; };
+		97C8EB3325C3BD970094696A /* list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = list.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				97776D0925BF254D009A65CD /* hstack.swift */,
 				97776D0C25BF2593009A65CD /* zstack.swift */,
 				97776D0F25BF2638009A65CD /* spacer.swift */,
+				97C8EB3325C3BD970094696A /* list.swift */,
 			);
 			path = "Basic Layout";
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97C8EB3425C3BD970094696A /* list.swift in Sources */,
 				97776CF625BF24E6009A65CD /* ContentView.swift in Sources */,
 				97776D0A25BF254D009A65CD /* hstack.swift in Sources */,
 				97776D0D25BF2593009A65CD /* zstack.swift in Sources */,

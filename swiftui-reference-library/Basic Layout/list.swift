@@ -16,6 +16,7 @@ struct list: View {
                 Text("Item 3")
             }
             .navigationBarTitle("List")
+            // Navigation bar title is used her to present a title
         }
     }
 }
